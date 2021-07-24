@@ -1,0 +1,33 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.counter__number {
+    font-size: 6rem;
+    font-weight:700;
+    margin-bottom: 4rem;
+}
+
+.counter__plus, .counter__minus {
+    background: #000;
+    color:#fff;
+    font-size:3rem;
+    width:150px;
+    margin-right: 1rem;
+    border:none;
+    cursor: pointer;
+
+}
+
+form .error {
+    display:none;
+    color:red;
+}
+form .error.show {
+    display:block;
+ 
+}
